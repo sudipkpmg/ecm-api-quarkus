@@ -15,7 +15,7 @@ public class StatusResourceTest {
                 .when().get("/ecm-api/v1/status")
                 .then()
                 .statusCode(200)
-                .body(is("ecm-api-quarkus service is running"));
+                .body(is("ecm-api-quarkus service is running !!!"));
     }
 
 }
